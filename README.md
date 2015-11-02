@@ -1,10 +1,18 @@
 # Rocket League Custom Quick Chats
 
-This file contains a small [AutoHotkey](www.autohotkey.com) script that enables additional "quick chat" functionality while playing Rocket League.
+This project contains a small [AutoHotkey](www.autohotkey.com) script that enables additional "quick chat" functionality while playing Rocket League.
 
-Look towards the bottom of this file for the actual texts that are output. Add new things by copy/pasting existing lines, remove those you don't like by deleting lines (or putting a semi-colon in front of them). Customize the buttons bound by looking at the very last part with the `Mapping[...]` lines. It should be fairly self-explanatory.
+Requirements:
 
-If you want this file to always run when you start AutoHotkey, you can put it in `My Documents\AutoHotkey.ahk`. The script will stay runningwith an H-icon in the system tray; right click  that to stop or force a reload. (However this script reloads itself when it detects it has been modified, so reloading manually shouldn't be necessary.)
+* Download and install [AutoHotkey](http://ahkscript.org/download/ahk-install.exe)
+
+* Put the `AutoHotkey.ahk` file somewhere you can find it again. For example in the root of `My Documents`.
+
+* Run the script by double-clicking it.
+
+Look towards the bottom of the `AutoHotkey.ahk` file for the actual texts that are output. Add new things by copy/pasting existing lines, remove those you don't like by deleting lines (or putting a semi-colon in front of them). Customize the buttons bound by looking at the very last part with the `Mapping[...]` lines. It should be fairly self-explanatory.
+
+If you want this file to always run when you start AutoHotkey, you can put it in `My Documents\AutoHotkey.ahk`. The script will stay running with an H-icon in the system tray; right click  that to stop or force a reload. (However this script reloads itself when it detects it has been modified, so reloading manually shouldn't be necessary.)
 
 Here's how it works:
 
