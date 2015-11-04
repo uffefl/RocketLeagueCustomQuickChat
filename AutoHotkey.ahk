@@ -50,6 +50,19 @@ if (WinActive("ahk_exe RocketLeague.exe"))
 		PovTime := RBTime - 1
 	}
 }
+Else
+{
+	joys := "Joysticks:`n"
+	Loop, 16
+	{
+		joy := GetKeyState(%A_Index% . "JoyName")
+		if (joy <> "")
+		{
+			joys := joys . joy . "`n"
+		}
+	}
+	ToolTip, %joys%
+}
 
 WatchPOV()
 {
@@ -392,3 +405,28 @@ Mapping["RB+Up"] := GoodLuck
 Mapping["RB+Left"] := Lucky
 Mapping["RB+Right"] := Funny
 Mapping["RB+Down"] := Curses
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
