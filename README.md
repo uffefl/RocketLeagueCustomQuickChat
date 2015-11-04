@@ -26,7 +26,7 @@ Here's how it works:
 
 * It's easy to change which buttons it listens to. My configuration assumes that the scoreboard has been moved from RB, since that interferes with normal chat operations, but if you don't want to move it I suggest using another button than RB.
 
-* For each of the 8 bindings there's a section in the bottom of the script with the actual texts used. They're easy to modify and extend. Some, like "gl hf" or "gg", always use the same text, while others pick randomly from a list. (I've been using this to fire off random Back to the Future quotes when I used the DeLorean, but now I'm thinking to just add some variety to stuff like "LOL!".)
+* For each of the 8 bindings there's a section in the bottom of the script with the actual texts used. They're easy to modify and extend. Some, like "gl hf" or "gg", always use mostly the same text, while others pick randomly from a long list.
 
 * When you edit the script it will automatically reload itself when you save it.
 
