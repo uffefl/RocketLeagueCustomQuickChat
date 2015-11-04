@@ -8,6 +8,8 @@ Requirements:
 
 * Put the `AutoHotkey.ahk` file somewhere you can find it again. For example in the root of `My Documents`.
 
+* Important: Customize the chat messages by editing the `AutoHotkey.ahk` file. Otherwise, what's the point?
+
 * Run the script by double-clicking it.
 
 Look towards the bottom of the `AutoHotkey.ahk` file for the actual texts that are output. Add new things by copy/pasting existing lines, remove those you don't like by deleting lines (or putting a semi-colon in front of them). Customize the buttons bound by looking at the very last part with the `Mapping[...]` lines. It should be fairly self-explanatory.
