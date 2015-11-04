@@ -2,6 +2,8 @@
 #Persistent
 
 AutoReload()
+
+AutoReload()
 {
 	SetTimer, CheckReload, 1000
 }
