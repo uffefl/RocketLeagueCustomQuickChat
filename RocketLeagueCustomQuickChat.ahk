@@ -1,2 +1,4 @@
+Menu, Tray, Icon, Icons\xbox-one-controller.ico
+
 #include AutoReload.ahk
-#include Gamepads.ahk
+#include Classic.ahk
